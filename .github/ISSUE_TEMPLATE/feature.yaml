@@ -1,7 +1,6 @@
 name: "[Feature Name]"
 description: Description of the feature
-
-fields:
+body:
   - type: textarea
     id: actor
     attributes:

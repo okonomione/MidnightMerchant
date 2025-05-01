@@ -1,0 +1,55 @@
+name: "[Feature Name]"
+description: Description of the feature
+
+fields:
+  - type: textarea
+    id: actor
+    attributes:
+      label: Actor
+      description: "Who is the user/system initiating this feature? e.g., 'As a user', 'As an administrator', 'As a system'"
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: "What is the current situation? What are they trying to achieve? e.g., 'When I am on the dashboard and want to...', 'In order to...', 'When processing a new order...'"
+  - type: textarea
+    id: action
+    attributes:
+      label: Action
+      description: "What specific action will be taken? e.g., 'I want to be able to filter the results by date', 'the system should automatically update the status', 'I can click a button to generate a report'"
+  - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: "What is the expected outcome or benefit? e.g., 'so that I can quickly find the information I need', 'which will improve data accuracy', 'and export it for further analysis'"
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: |
+        * AC 1: [Specific, measurable, and testable criteria. e.g., "The filter dropdown should include 'Start Date' and 'End Date' fields.", "The status field in the database is updated to 'Processed'.", "A CSV file is generated with the correct data format."]
+        * AC 2: [Another acceptance criterion]
+        * AC 3: [And so on...]
+        * AC n: [Last acceptance criteria]
+
+  - type: textarea
+    id: assumptions
+    attributes:
+      label: Assumptions
+      description: |
+        * Assumption 1: [e.g., "The user is already logged in.", "The necessary API endpoints are available.", "The database schema includes the required fields."]
+        * Assumption 2: [Another assumption]
+        * Assumption 3: [And so on...]
+
+  - type: dropdown
+    id: t_shirt_size
+    attributes:
+      label: T-Shirt Size
+      options:
+        - label: XS
+        - label: S
+        - label: M
+        - label: L
+        - label: XL
+        - label: XXL
